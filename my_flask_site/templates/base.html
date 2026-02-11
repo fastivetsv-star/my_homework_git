@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <title>{% block title %}Мій Сайт{% endblock %}</title>
 </head>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 <body>
     <nav>
+        <img src="{{ url_for('static', filename='images/logo.jpeg') }}" alt="Логотип" width="100">
         <a href="/">Головна</a> | 
         <a href="/books">Книги</a> | 
         <a href="/films">Фільми</a> | 
