@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Книги{% endblock %}
+
+{% block content %}
+    <h1>Мої книги</h1>
+    <ul>
+    {% for book in books %}
+        <li>{{ book.title }} - {{ book.author }} ({{ book.rating }}/10)</li>
+    {% endfor %}
+    </ul>
+{% endblock %}

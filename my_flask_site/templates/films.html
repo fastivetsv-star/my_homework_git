@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Фільми{% endblock %}
+
+{% block content %}
+    <h1>Мої Фільми</h1>
+    <ul>
+    {% for film in films %}
+        <li>{{ film.title }} - {{ film.author }} ({{ film.rating }}/10)</li>
+    {% endfor %}
+    </ul>
+{% endblock %}
