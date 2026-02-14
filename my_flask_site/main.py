@@ -27,7 +27,7 @@ books_data = [
 ]
 
 library1 = [
-    Film(title="Людина Паук", author="Стен Ли", rating=8),
+    Film(title="Людина Паук", author="Стен Ли", rating=10),
     Film(title="Прокляття Аннабель", author="Гари Доберман", rating=9),
     Film(title="Дюна", author="Джеймс Ван", rating=7)
 ]
