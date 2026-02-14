@@ -48,7 +48,7 @@ async def contacts(request: Request):
     return """
     <h1>Контакти</h1>
     <p>Email: fastivetsv@gmail.com</p>
-    <a href="/">Назад</a>
+    <a href="/">Назад.</a>
     """
 @app.get("/books", response_class=HTMLResponse)
 async def books_list(request: Request):
